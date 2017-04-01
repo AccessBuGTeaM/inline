@@ -51,4 +51,4 @@ Created By <a href="https://telegram.me/AcCes3">ACCESS DENIED</a>
 
 
 # اگر راهنمای نصب  ناخوانا (در هم برهم) میباشد ، به چنل زیر مراجعه کنید👇
-# <a href="https://telegram.me/AcCes3"> چنل من :) </a>
+# <a href="https://telegram.me/AcCes3_Denied_team"> چنل من :) </a>
