@@ -6,7 +6,7 @@ Created By <a href="https://telegram.me/AcCes3">ACCESS DENIED</a>
 
 <h6>(کد های زیر را در ترمینال وارد کنید👇)</h6>
 <pre>
-<span>git clone https://github.com/Alireza81531/Accessdeniedinline.git</span>
+<span>git clone https://github.com/Alireza81531/inline.git</span>
 بعد از کلون کردن به فایل bot.lua در bot میروید
 در خط ۱و۲و۹ بجای username یوزر سرور خودرا قرار میدهید
 در خط ۱۰ و ۱۱ شناسه سودو را قرار میدهید
