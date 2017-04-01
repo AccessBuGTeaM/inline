@@ -42,10 +42,10 @@ Created By <a href="https://telegram.me/AcCes3">ACCESS DENIED</a>
 
 اگر جایی به مشکل بر خوردید به پی وی بنده مراجعه کنید
 
-# <a href="https://telegram.me/ACCESS_DENIED_TM">BanG TeaM</a>
+# <a href="https://telegram.me/ACCESS_DENIED_TM">ACCESS DENIED TM</a>
 
 <a href="https://telegram.me/AcCes3">My Pv </a>
 
 
 # اگر راهنمای نصب  ناخوانا (در هم برهم) میباشد ، به پی وی بنده مراجعه کنید👇
-# <a href="https://telegram.me/ACCESS_DENIED_TM">کلیک کنید </a>
+# <a href="https://telegram.me/AcCes3">پی وی من :) </a>
