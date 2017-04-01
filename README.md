@@ -1,4 +1,4 @@
-﻿# Inline Suores
+﻿# Inline Source
 Created By <a href="https://telegram.me/AcCes3">ACCESS DENIED</a>
 
 
