@@ -2,14 +2,14 @@ local URL = require "socket.url"
 local https = require "ssl.https"
 local serpent = require "serpent"
 local json = (loadfile "/home/username/inline/data/JSON.lua")()
-local token = '254778917:AAEGVrvHjYc-wkwrMuF0hekpGHpmPr3htog' --token
+local token = '369312992:AAFDTpg4y3beyOmMcEw5KucULaePtJ5nUOE' --token
 local url = 'https://api.telegram.org/bot' .. token
 local offset = 0
 local redis = require('redis')
 local redis = redis.connect('127.0.0.1', 6379)
-local SUDO = 304107094
+local SUDO = 270097211
 function is_mod(chat,user)
-sudo = {304107094}
+sudo = {270097211}
   local var = false
   for v,_user in pairs(sudo) do
     if _user == user then
@@ -159,7 +159,7 @@ local function run()
           offset = msg.update_id + 1
           if msg.inline_query then
             local q = msg.inline_query
-						if q.from.id == 352689853 or q.from.id == 304107094 then
+						if q.from.id == 320083038 or q.from.id == 270097211 then
             if q.query:match('%d+') then
               local chat = '-'..q.query:match('%d+')
 							local function is_lock(chat,value)
@@ -180,7 +180,13 @@ local hash = SUDO..'settings:'..chat..':'..value
 				 {text = 'اطلاعات گروه', callback_data = 'groupinfo:'..chat},{text = 'راهنما', callback_data = 'helpbot:'..chat}
 				}
 							}
-            answer(q.id,'settings','Group settings',chat,'به بخش اصلی خوش آمدید.\nاز منوی زیر انتخاب کنید:',keyboard)
+            answer(q.id,'settings','Group settings',chat,'به بخش اصلی خوش آمدید.\nاز منوی زیر انتخاب کنید
+برای خرید ربات به ای دی زیر مراجعه نمایید .
+@AcCes3
+افراد یپورت میتوانند از طریق بات زیر خریداری نمایند .
+@AcCessDenied_BoT
+کانال ما :
+@Access_Denied_TM\n:',keyboard)
             end
             end
 						end
@@ -189,7 +195,7 @@ local hash = SUDO..'settings:'..chat..':'..value
 						local chat = ('-'..q.data:match('(%d+)') or '')
 						if is_mod(chat,q.from.id) then
              if q.data:match('_') and not (q.data:match('next_page') or q.data:match('left_page')) then
-                Canswer(q.id,">برای مشاهده راهنمای بیشتر این بخش عبارت\n/help\nرا ارسال کنید\n>تیم پشتیبانی:[@BanG_Pv_Bot]\n>کانال پشتیبانی:[@BanG_TeaM]\n> فروش :[@Bibak_BG]",true)
+                Canswer(q.id,">برای مشاهده راهنمای بیشتر این بخش عبارت\n/help\nرا ارسال کنید\n>تیم پشتیبانی:[@ACCESSDENIED_BOT]\n>کانال پشتیبانی:[@ACCESS_DENIED]\n> فروش :[@AcCes3]",true)
 					elseif q.data:match('lock') then
 							local lock = q.data:match('lock (.*)')
 							TIME_MAX = (redis:get(SUDO..'floodtime'..chat) or 3)
@@ -298,7 +304,13 @@ local hash = SUDO..'settings:'..chat..':'..value
 				 {text = 'اطلاعات گروه', callback_data = 'groupinfo:'..chat},{text = 'راهنما', callback_data = 'helpbot:'..chat}
 				}
 							}
-            edit(q.inline_message_id,'`به بخش اصلی خوش آمدید.`\n`از منوی زیر انتخاب کنید:`',keyboard)
+            edit(q.inline_message_id,'`به بخش اصلی خوش آمدید.`\n`از منوی زیر انتخاب کنید
+برای خرید ربات به ای دی 
+@AcCes3
+مراجعه کنید . افراد ریپورت میتوانند از طریق بات زیر به پیوی بنده مراجعه نمایند :
+@ACCESSDENIED_BOT
+کانال ما :
+@ACCESS_DENIED_TM:`',keyboard)
             end
 							------------------------------------------------------------------------
 							if q.data:match('supportbot') then
